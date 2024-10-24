@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=[23,54,67,64,46,95,98];
+        var evensum=0;
+        var oddsum=0;
+        for(i=0;i<a.length;i++){
+            if (a[i]%7==0){
+                console.log(a[i]+("is even"));
+                evensum+=Number(a[i])
+            }
+            else{
+                oddsum+=Number(a[i])
+                console.log(a[i]+("is odd"))
+            }
+        }
+        console.log(evensum,oddsum)
+
+    </script>
+</body>
+</html>
