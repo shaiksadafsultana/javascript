@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // advanced
+    // Task 1: Username Validation
+    let username=prompt("enter a username")
+        if(username.length>=5&&username.length<=15){
+            console.log("valid username")
+        }else{
+            console.log("invalid username")
+        }
+
+    // Scenario: Validate a username based on specific criteria. 
+        let user1=prompt("Enter First name")
+        let user2=prompt("enter a second name")
+        console.log(user1.concat(user2,"@gamil.com"))
+
+
+    // Prompt the user to enter a username.
+        let user=prompt("enter a sentence");
+        console.log(user.split("").length)
+        
+    // Check if the username contains characters in between 5 to 15 long.
+        let f=prompt("enter a string")
+        let g=f.split("").reverse().join("");
+        if(f==g){
+            console.log("it is a palindrome");   
+        }else{
+            console.log("not a palindram");
+        }
+    </script>
+</body>
+</html>
